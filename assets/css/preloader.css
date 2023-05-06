@@ -1,0 +1,48 @@
+#preloader {
+    background: #000;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    /* animation: loader 0.5s 3.2s ease-in forwards; */
+}
+
+#preloader h1{
+    position: relative;
+    top: calc(50% - 10px);
+    text-align: center;
+    color: green;
+}
+
+.progress-bar {
+    width: 400px;
+    height: 2px;
+    background-color: white;
+    position: relative;
+    top: calc(50% - 1px);
+    left: calc(50% - 200px);
+}
+
+.progress-bar::before {
+    content: "";
+    display: block;
+    width: 0px;
+    height: 5px;
+    position: absolute;
+    top: -1px;
+    /* animation: progress 2s ease-in-out forwards; */
+}
+
+#preloader-bar {
+    width: 1%;
+    height: 2px;
+    background-color: darkgreen;
+}
+
+/* @keyframes loader {
+    to{left: -100%;}
+}
+
+@keyframes progress {
+    to{border-left: 400px solid darkgreen;}
+} */
