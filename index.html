@@ -39,6 +39,7 @@
   	<nav class="navbar navbar-dark fixed-top navbar-expand-md navbar-no-bg">
   		<div class="container">
   			<!--<a class="navbar-brand" href="index.html">Home</a>-->
+			  <a class="btn btn-light" href="mailto: borgioli.niccolo@gmail.com" target="_blank" role="button">Contact me</a>
   			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
   				<span class="navbar-toggler-icon"></span>
   			</button>
@@ -88,18 +89,20 @@
   					<div class="about-us-box-text">
   						<h3>About me</h3>
   						<p class="medium-paragraph">
-						I took bachelor degree in Computer Engineering at University of Genoa, Italy, in 2016. During my Bachelor Degree I was co-founder and CEO of a start-up called LetIn that also was selected for a Regione Liguria.<br>
-						I recently took a Master Degree in Embedded Computing Systems with 110 cum laude at School of Advanced Studies S. Anna (SSSA), Pisa, Italy.<br>
-						Actually, I'm a PhD student at the ReTis lab of School of Avanced Studies S. Anna.
-						In the last year I have developed an Intelligent System to detect calcifications and masses inside a mammography using a combination of a Deep Convolutional Neural Network and Fuzzy Logic.<br>
-						Moreover I have participated to a Cyber Defense exercise jointly with the cyber team of Italian Army. In this occasion I part of the blue team. In particular my task was defending the IoT infrastructure.<br>
-						My interests involves Cybersecurity and Artificial Intelligence, in particular in Embedded domain.
+						<!-- I took bachelor degree in Computer Engineering at University of Genoa, Italy, in 2016. During my Bachelor Degree I was co-founder and CEO of a start-up called LetIn that also was selected for a Regione Liguria.<br>
+						In 2020 I took a Master Degree in Embedded Computing Systems with 110 cum laude at School of Advanced Studies S. Anna (SSSA), Pisa, Italy.<br> During my studies I have developed an Intelligent System to detect calcifications and masses inside a mammography using a combination of a Deep Convolutional Neural Network and Fuzzy Logic, and I also developed a novel method to predict Covid diffusion.<br><br> -->
+						Hi, I'm a third year PhD student at the <a href="http://retis.sssup.it/">ReTiS Laboratory</a> of School of Avanced Studies S. Anna under the supervision of <a href=http://retis.sssup.it/~giorgio/">Prof. Giorgio Buttazzo</a> and <a href="http://retis.sssup.it/~a.biondi/">Prof. Alessandro Biondi</a>. My research activity focuses on improving the security and performance of the I/O on Embedded Systems.<br>
+						Since November 2022 I am a visiting PhD Student at the <a href="https://precise.seas.upenn.edu">PRECISE</a> laboratory of the University of Pennsylvanya under the supervision of <a href="http://www.cis.upenn.edu/~linhphan/">Prof. Linh Thi Xuan Phan</a> working on the development of a Intrusion Detection System robust agains zero-days for Cyber Physical Systems using ML techniques.<br>
+						In 2020 I graduated cum laude in the Master of Science in Embedded Computing Systems jointly offered by School of Advanced Studies S. Anna (SSSA) and University of Pisa with a thesis on the prediction of Covid diffusion.<br>
+						During my Master Degree I also participated to a Cyber Defense exercise jointly with the cyber team of Italian Army as member of the blue team. In particular my task was defending the IoT infrastructure.<br>
+						
+						My interests involves Cybersecurity and Artificial Intelligence, with a particular passion for the Automotive sector.
   						</p>
   					</div>
   				</div>
   				<div class="col-12 col-lg-5 about-us-box wow fadeInUp">
   					<div class="about-us-box-img">
-  						<img src="assets/img/about/primo_piano.jpg" alt="about" data-at2x="assets/img/about/primo_piano.jpg" class="img-fluid">
+  						<img src="assets/img/about/primo_piano.webp" alt="about" data-at2x="assets/img/about/primo_piano.webp" class="img-fluid">
   					</div>
   				</div>
   			</div>
@@ -132,7 +135,7 @@
 	            <div class="col portfolio section-description wow fadeIn">
 	                <h3>My projects</h3>
 	                <div class="divider-1 wow fadeInUp"><span></span></div>
-	                <p>Some public projects that I have developed during last years. Check them out!</p>
+	                <p>Some public projects that I have developed. Check them out!</p>
 	            </div>
 	        </div>
 	        <div class="row">
@@ -154,7 +157,16 @@
 	                <p>Perceptron written in VHDL and implemented for Zybo Board</p>
 	                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#project2">See more</button>
 	            </div>
-	            <div class="col-md-4 portfolio-box wow fadeInUp">
+				<div class="col-md-4 portfolio-box wow fadeInUp">
+	                <div class="portfolio-box-image">
+	                    <img src="assets/img/portfolio/drone.webp" alt="" data-at2x="assets/img/portfolio/drone.webp" class="img-fluid" style="height: 200px; width: auto;">
+	                </div>
+	                <h3><a data-toggle="modal" data-target="#project3">Drone Follower</a> <i class="fas fa-angle-right"></i></h3>
+	                <div class="portfolio-box-date"><i class="far fa-calendar"></i> September 2018</div>
+	                <p>The project aims to realize a real time simulator of a drone that have to follow a ball.</p>
+	                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#project3">See more</button>
+	            </div>
+	            <!-- <div class="col-md-4 portfolio-box wow fadeInUp">
 	                <div class="portfolio-box-image">
 	                    <img src="assets/img/portfolio/3.jpg" alt="" data-at2x="assets/img/portfolio/3.jpg" class="img-fluid" style="height: 200px; width: auto;">
 	                </div>
@@ -162,7 +174,7 @@
 	                <div class="portfolio-box-date"><i class="far fa-calendar"></i> April 2019</div>
 	                <p>Sensor fusion-based emotion detection system.</p>
 	                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#project3">See more</button>
-	            </div>
+	            </div> -->
 	        </div>
 	    </div>
 	</div><br><br>
@@ -208,6 +220,24 @@
 		<div class="modal-dialog">
 			<div class="modal-content">
 				<div class="modal-header">
+					<h4 class="modal-title">Drone Follower</h4>
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+				</div>
+				<div class="modal-body">
+					<p>Real time simulator of a drone that have to follow a ball. The ball movement is generated randomly by a dedicated task. The simulator has to recognize and follow the ball using a virtual camera mounted on the drone. The visualization of the environment should be done in Unreal Engine, while all of the computation regarding image recognition, trajectory planning, drone control and system simulation have to be done by a separated program running on Linux using Allegro 3 Library.</p><br>
+					<a class="btn btn-info" href="downloads/drone simulator - real time.pdf" target="_blank" type="application/octet-stream" download="DroneFollower.pdf">See project</a>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- <div class="modal" id="project3">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
 					<h4 class="modal-title">Emotion detection system</h4>
 					<button type="button" class="close" data-dismiss="modal">&times;</button>
 				</div>
@@ -220,7 +250,7 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> -->
 
 
 
